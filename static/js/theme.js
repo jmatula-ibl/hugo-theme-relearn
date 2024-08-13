@@ -757,6 +757,9 @@ function initArrowHorizontalNav(){
     var scrollStart = 0;
     var scrollEnd = 0;
     document.addEventListener('keydown', function(event){
+        if ( event.target.tagName.toLowerCase() === 'input' ){
+            return;
+        }
         if( !event.shiftKey && !event.ctrlKey && !event.altKey && !event.metaKey ){
             if( event.which == dir_key_start ){
                 if( !scrollStart && +el.scrollLeft.toFixed()*dir_scroll <= 0 ){
