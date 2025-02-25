@@ -710,7 +710,7 @@ h1 {
 
 h2 {
   color: var(--INTERNAL-MAIN-TITLES-H2-TEXT-color);
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   font-variation-settings: var(--INTERNAL-MAIN-TITLES-H2-font-variation-settings);
   font-weight: var(--INTERNAL-MAIN-TITLES-H2-font-weight);
   font-family: var(--INTERNAL-MAIN-TITLES-H2-font);
@@ -728,7 +728,7 @@ h3 {
 
 h4 {
   color: var(--INTERNAL-MAIN-TITLES-H4-TEXT-color);
-  font-size: 1.85rem;
+  font-size: 1.6rem;
   font-variation-settings: var(--INTERNAL-MAIN-TITLES-H4-font-variation-settings);
   font-weight: var(--INTERNAL-MAIN-TITLES-H4-font-weight);
   font-family: var(--INTERNAL-MAIN-TITLES-H4-font);
@@ -737,7 +737,7 @@ h4 {
 
 h5 {
   color: var(--INTERNAL-MAIN-TITLES-H5-TEXT-color);
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-variation-settings: var(--INTERNAL-MAIN-TITLES-H5-font-variation-settings);
   font-weight: var(--INTERNAL-MAIN-TITLES-H5-font-weight);
   font-family: var(--INTERNAL-MAIN-TITLES-H5-font);
@@ -746,7 +746,7 @@ h5 {
 
 h6 {
   color: var(--INTERNAL-MAIN-TITLES-H6-TEXT-color);
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-variation-settings: var(--INTERNAL-MAIN-TITLES-H6-font-variation-settings);
   font-weight: var(--INTERNAL-MAIN-TITLES-H6-font-weight);
   font-family: var(--INTERNAL-MAIN-TITLES-H6-font);
@@ -2061,16 +2061,34 @@ span.math:has(> mjx-container[display]) {
   text-align: right;
 }
 
+<<<<<<<
 .mermaid-container.align-center {
   text-align: center;
+=======
+h4 {
+    font-size: 1.6rem;
+    font-weight: 300;
+>>>>>>>
 }
 
+<<<<<<<
 .mermaid-container.align-left {
   text-align: left;
+=======
+h5 {
+    font-size: 1.4rem;
+    font-weight: 300;
+>>>>>>>
 }
 
+<<<<<<<
 .searchform {
   display: flex;
+=======
+h6 {
+    font-size: 1.2rem;
+    font-weight: 300;
+>>>>>>>
 }
 
 .searchform input {
